@@ -1,0 +1,84 @@
+{
+  "latency": {
+    "t0": 1.0000000115885387e-15,
+    "P": 2262024257306.9404,
+    "W": 50475887527.41644
+  },
+  "energy": {
+    "E0": 1.0070026507193547e-15,
+    "alpha": 3.041358560748188e-11,
+    "beta": 1.1051901731753136e-21
+  },
+  "units": {
+    "t0": "s",
+    "P": "FLOP/s",
+    "W": "byte/s",
+    "E0": "J",
+    "alpha": "J/FLOP",
+    "beta": "J/byte"
+  },
+  "latency_fit": {
+    "training_points": 106,
+    "compute_dominated_training_points": 83,
+    "memory_dominated_training_points": 23,
+    "note": "A throughput is weakly constrained if its branch never dominates the training data."
+  },
+  "energy_fit": {
+    "status": "fitted",
+    "training_points": 106
+  },
+  "errors": {
+    "latency_s": {
+      "fit": {
+        "n": 106,
+        "mae": 0.004551583327505372,
+        "rmse": 0.008307356857424219,
+        "mean_relative_error_percent": 36.730222274329876
+      },
+      "validation": {
+        "n": 26,
+        "mae": 0.005575540660620624,
+        "rmse": 0.010792423595146719,
+        "mean_relative_error_percent": 33.93720482534286
+      }
+    },
+    "memory_bytes": {
+      "fit": {
+        "n": 106,
+        "mae": 349890316.9811321,
+        "rmse": 690045656.8808708,
+        "mean_relative_error_percent": 50.592493530935876
+      },
+      "validation": {
+        "n": 26,
+        "mae": 246481116.30769232,
+        "rmse": 480742785.84564924,
+        "mean_relative_error_percent": 53.099816872744455
+      }
+    },
+    "energy_j": {
+      "fit": {
+        "n": 106,
+        "mae": 0.33590554709160636,
+        "rmse": 0.6344665268290121,
+        "mean_relative_error_percent": 32.628780101249504
+      },
+      "validation": {
+        "n": 26,
+        "mae": 0.3937196216000363,
+        "rmse": 0.7391624941947861,
+        "mean_relative_error_percent": 32.05662364868228
+      }
+    }
+  },
+  "oom_analysis": {
+    "completed_runs": 132,
+    "oom_runs": 0,
+    "other_errors": 0,
+    "largest_completed_formula_bytes": 3493822224.0,
+    "smallest_oom_formula_bytes": null,
+    "gpu_total_memory_bytes": 15636037632.0,
+    "oom_cases": [],
+    "interpretation": "The formula counts model parameters and live input/output tensors. CUDA context, library workspaces and temporary allocations can make an OOM happen earlier."
+  }
+}
