@@ -1,0 +1,55 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n": 3,
+  "std_convention": "sample standard deviation, ddof=1",
+  "onecycle": {
+    "mean_accuracy": 99.10666666666667,
+    "sd_accuracy": 0.047258156262526205,
+    "steps": 1406,
+    "epochs": 11.997866666666667
+  },
+  "inv": {
+    "mean_accuracy": 98.99333333333334,
+    "sd_accuracy": 0.05507570547285651,
+    "steps": 10000,
+    "epochs": 85.33333333333333
+  },
+  "inv_at_12_epochs": {
+    "mean_accuracy": 98.67666666666666,
+    "sd_accuracy": 0.07094598884597644,
+    "steps": 1406
+  },
+  "paired_accuracy_difference_pp": [
+    0.07000000000000739,
+    0.13999999999998636,
+    0.12999999999999545
+  ],
+  "paired_difference_mean_pp": 0.11333333333332973,
+  "paired_difference_95pct_t_interval_pp": [
+    0.01928539744088989,
+    0.20738126922576958
+  ],
+  "delta_vs_paper_onecycle_pp": -0.14333333333333087,
+  "delta_vs_paper_inv_pp": -0.03666666666666174,
+  "budget_ratio": 7.112375533428165,
+  "measured_train_time_ratio": 7.299314012251529,
+  "measured_wall_time_ratio": 7.26116579464325,
+  "initial_weights_matched": true,
+  "paper_threshold_reached": {
+    "onecycle": [
+      11.9808,
+      10.9824,
+      9.984
+    ],
+    "inv": [
+      null,
+      36.9408,
+      30.9504
+    ]
+  },
+  "full_paper_reproduced": false
+}

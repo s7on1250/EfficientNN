@@ -1,0 +1,14 @@
+{
+  "mode": "pc",
+  "seed": 0,
+  "step": 80000,
+  "epoch": 1600.0,
+  "lr": 0.0035000000000000005,
+  "train_loss": 0.0010941616055788472,
+  "test_accuracy": 88.99,
+  "test_loss": 0.4180133108139038,
+  "train_seconds": 19347.620963032823,
+  "eval_seconds": 548.8884477918618,
+  "initial_sha256": "5d342eb1dd53de6f4537724ed327bb0b5570bbf9e01224eca1875ab0ef4b7c95",
+  "parameters": 224042
+}

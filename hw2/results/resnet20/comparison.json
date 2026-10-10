@@ -1,0 +1,17 @@
+{
+  "clr": {
+    "accuracy": 90.77,
+    "paper_accuracy": 90.4,
+    "delta_vs_paper_pp": 0.36999999999999034
+  },
+  "pc": {
+    "accuracy": 88.99,
+    "paper_accuracy": 88.6,
+    "delta_vs_paper_pp": 0.39000000000000057
+  },
+  "n": 1,
+  "paired_difference_pp": 1.7800000000000011,
+  "measured_train_time_ratio": 4.022223675046686,
+  "update_budget_ratio": 4,
+  "reference": "arXiv:1708.07120v3 Figure 4b"
+}

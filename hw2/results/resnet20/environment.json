@@ -1,0 +1,25 @@
+{
+  "torch": "2.2.2",
+  "python": "3.12.14",
+  "device": "mps",
+  "depth": 20,
+  "batch": 1000,
+  "microbatch": 125,
+  "accumulation": 8,
+  "indexing": "Python scalar modulo before GPU arithmetic; fixes MPS int64 remainder precision",
+  "virtual_rank_partition": "strided Caffe DataLayer",
+  "seeds": [
+    0
+  ],
+  "train_examples": 50000,
+  "test_examples": 10000,
+  "pixel_scale": 1,
+  "mean": "training pixelwise mean",
+  "shuffle": false,
+  "augmentation": "horizontal flip only",
+  "source": "arXiv:1708.07120v3 Fig 4b",
+  "paper_steps": {
+    "clr": 20000,
+    "pc": 80000
+  }
+}

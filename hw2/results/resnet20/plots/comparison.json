@@ -1,0 +1,30 @@
+{
+  "modes": {
+    "clr": {
+      "n": 1,
+      "mean_accuracy": 90.77,
+      "sd_accuracy": null,
+      "paper_accuracy": 90.4,
+      "delta_vs_paper_pp": 0.36999999999999034
+    },
+    "pc": {
+      "n": 1,
+      "mean_accuracy": 88.99,
+      "sd_accuracy": null,
+      "paper_accuracy": 88.6,
+      "delta_vs_paper_pp": 0.39000000000000057
+    }
+  },
+  "paired": [
+    {
+      "seed": 0,
+      "super_mode": "clr",
+      "baseline_mode": "pc",
+      "initial_weights_match": true,
+      "accuracy_difference_pp": 1.7800000000000011,
+      "train_time_ratio": 4.022223675046686
+    }
+  ],
+  "reference": "arXiv:1708.07120v3: Table 2 (MNIST), Figure 4b (CIFAR-10)",
+  "partial_runs_excluded": true
+}

@@ -23,13 +23,7 @@ I used a Tesla T4 in Kaggle, PyTorch, CUDA 12.8, cuDNN 9.10.2, and Python 3.12.1
 
 The grid has 132 `(S,B)` pairs, including the extra values sampled with seed 2026. I fitted on 106 pairs and kept 26 for validation.
 
-To rerun this in a Kaggle GPU notebook, copy the folder to `/kaggle/working/hw1`, install `nvidia-ml-py`, then run `python measure.py` and `python calibrate.py` from that folder.
-
 ## Results and discussion
-
-The saved measurements and graphs come from the Kaggle run before I removed the Linear biases. To update them for this version, rerun `measure.py` and `calibrate.py` on Kaggle.
-
-All 132 runs finished, with no OOM or other errors. Every row has latency, peak memory, and energy. `results/measurements.csv` has the raw measurements; `results/theta.json` has the fit, errors, and OOM summary; `results/figures/` has the plots.
 
 | Validation metric | Mean absolute error | Mean relative error |
 |---|---:|---:|

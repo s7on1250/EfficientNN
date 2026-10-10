@@ -1,0 +1,16 @@
+{
+  "mode": "onecycle",
+  "seed": 1,
+  "step": 1406,
+  "epoch": 11.997866666666667,
+  "lr": 9.999999999999593e-06,
+  "momentum": 0.95,
+  "train_loss": 0.00270802341401577,
+  "test_accuracy": 99.07,
+  "test_loss": 0.02533445836934261,
+  "train_seconds": 22.80355106224306,
+  "eval_seconds": 2.75189904103172,
+  "wall_seconds": 25.565923957998166,
+  "initial_sha256": "f215422bb2e22a7113ccb5afd20cad5d90c8b36cf9ebc066c7315535ec93a473",
+  "parameters": 431080
+}

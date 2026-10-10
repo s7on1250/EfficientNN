@@ -1,0 +1,16 @@
+{
+  "mode": "inv",
+  "seed": 0,
+  "step": 10000,
+  "epoch": 85.33333333333333,
+  "lr": 0.005946258561103331,
+  "momentum": 0.9,
+  "train_loss": 0.0043446082283150065,
+  "test_accuracy": 99.02,
+  "test_loss": 0.03001219347236911,
+  "train_seconds": 165.9216195147019,
+  "eval_seconds": 18.971738627093146,
+  "wall_seconds": 184.9874171249976,
+  "initial_sha256": "717b0c731b67ddb140b8f1287b33b51bbef90a3e905dfa9989bd8daddb3297e1",
+  "parameters": 431080
+}

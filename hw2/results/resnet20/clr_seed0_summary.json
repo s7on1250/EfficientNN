@@ -1,0 +1,14 @@
+{
+  "mode": "clr",
+  "seed": 0,
+  "step": 20000,
+  "epoch": 400.0,
+  "lr": 0.10028999999999998,
+  "train_loss": 0.0010788948129629716,
+  "test_accuracy": 90.77,
+  "test_loss": 0.37932936191558836,
+  "train_seconds": 4810.180269949371,
+  "eval_seconds": 136.5278803340625,
+  "initial_sha256": "5d342eb1dd53de6f4537724ed327bb0b5570bbf9e01224eca1875ab0ef4b7c95",
+  "parameters": 224042
+}

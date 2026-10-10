@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14",
+  "torch": "2.2.2",
+  "numpy": "1.26.4",
+  "machine": "arm64",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "device": "mps",
+  "threads": 2,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "modes": [
+    "onecycle",
+    "inv"
+  ],
+  "batch_size": 512,
+  "training_examples": 60000,
+  "test_examples": 10000,
+  "shuffle": false,
+  "input_scale": "1/256",
+  "source": "arXiv:1708.07120v3 Table 2",
+  "hardware": "Apple M3 Pro",
+  "ram_bytes": 38654705664,
+  "experiment_date": "2026-10-09",
+  "timezone": "Europe/Moscow",
+  "mps_deterministic_guarantee": false
+}

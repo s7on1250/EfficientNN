@@ -1,0 +1,46 @@
+{
+  "modes": {
+    "inv": {
+      "n": 3,
+      "mean_accuracy": 98.99333333333334,
+      "sd_accuracy": 0.05507570547285651,
+      "paper_accuracy": 99.03,
+      "delta_vs_paper_pp": -0.03666666666666174
+    },
+    "onecycle": {
+      "n": 3,
+      "mean_accuracy": 99.10666666666667,
+      "sd_accuracy": 0.047258156262526205,
+      "paper_accuracy": 99.25,
+      "delta_vs_paper_pp": -0.14333333333333087
+    }
+  },
+  "paired": [
+    {
+      "seed": 0,
+      "super_mode": "onecycle",
+      "baseline_mode": "inv",
+      "initial_weights_match": true,
+      "accuracy_difference_pp": 0.07000000000000739,
+      "train_time_ratio": 6.848859931236637
+    },
+    {
+      "seed": 1,
+      "super_mode": "onecycle",
+      "baseline_mode": "inv",
+      "initial_weights_match": true,
+      "accuracy_difference_pp": 0.13999999999998636,
+      "train_time_ratio": 7.873284293887579
+    },
+    {
+      "seed": 2,
+      "super_mode": "onecycle",
+      "baseline_mode": "inv",
+      "initial_weights_match": true,
+      "accuracy_difference_pp": 0.12999999999999545,
+      "train_time_ratio": 7.209484482489579
+    }
+  ],
+  "reference": "arXiv:1708.07120v3: Table 2 (MNIST), Figure 4b (CIFAR-10)",
+  "partial_runs_excluded": true
+}
